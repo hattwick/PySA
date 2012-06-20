@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# This is the second commit - modified from original
+
 
 import sys, os.path, time
 from ConfigParser import SafeConfigParser
