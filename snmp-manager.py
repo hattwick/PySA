@@ -57,7 +57,7 @@ class SnmpManager:
                                    "DS:%s:COUNTER:%s:U:U" % (check, 
                                                              system['checks'][check]['sampling_rate']),
                                    "RRA:AVERAGE:0.5:1:288",)
-
+                    
 
 def main(conf_file=""):
     if not conf_file:

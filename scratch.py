@@ -9,16 +9,18 @@ Maintainer: philhatt@mac.com
 """
 
 # Text string above is initial Python docstring
-
+team
 # Welcome message
 
 print ("Python input program (c) 2012")
 
-
-# Get input
-
-text = input('Type in some words: ')
-
-# Echo output
-
-print(text)
+while True:
+    reply = raw_input('Enter text ')   # If Python 3 raw_input is just input
+    if reply == 'stop': break
+    try:
+        num = int(reply)
+    except:
+        print(reply)
+    else:
+        print(num ** 2)
+    print('done')
