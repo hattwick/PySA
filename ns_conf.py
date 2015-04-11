@@ -7,7 +7,6 @@ sys.path.append(os.getenv("HOME"))
 import ns_config as config
 import NSLib
 
-
 def main():
     # define cli parser configuration and options
     cli_parser = OptionParser("Usage: %prog enable|disable [OPTIONS]")
