@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import os, sys, logging
-from optparse import OptionParser
+from optparse import Opti
 # we have config in our home directory, so add that to python path and import it
 sys.path.append(os.getenv("HOME"))
 import ns_config as config
