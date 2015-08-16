@@ -24,5 +24,3 @@ while True:
     else:
         print(num ** 2)
     print('done')
-
-# done
