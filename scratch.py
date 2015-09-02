@@ -3,7 +3,7 @@ Problem: Print out user-provided text
 Target Users: testers
 Interface: Command line
 Functional Requirements:  Prompt for user input
-													Process input and respond
+												Process input and respond
 Testing: Editor test and then execute separately
 Maintainer: philhatt@mac.com
 """
