@@ -17,3 +17,9 @@ class FrenchDeck:
 
     def __getitem__(self, position):
         return self._cards[position]
+
+deck = FrenchDeck()
+
+print(len(deck))
+print('First card in the deck is',deck[0])
+print('Last card in the deck is',deck[51])
