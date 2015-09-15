@@ -26,3 +26,10 @@ print(len(deck))
 print('First card in the deck is',deck[0])
 print('Last card in the deck is',deck[51])
 print('Ramdom card is', choice(deck))
+
+#print the full deck
+
+print(deck[0:51])
+
+for card in deck:
+    print(card)
