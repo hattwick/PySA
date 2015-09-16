@@ -33,3 +33,5 @@ print(deck[0:51])
 
 for card in deck:
     print(card)
+
+print('End')
