@@ -27,6 +27,6 @@ friendships = [(0,1), (0,2), (1,2), (1,3), (2,3), (3,4), (4,5), (5,6), (5.7), (6
 for user in users:
     user["friends"] = []
 
-for i,j in friendships:
+for i,j in range(friendships):
     users[i]["friends"].append(users[j])   # add i as a friend of j
-    users[j]["friends"].append(users[i])
+#    users[j]["friends"].append(users[i])
