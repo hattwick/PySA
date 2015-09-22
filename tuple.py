@@ -35,4 +35,11 @@ for i, j in friendships:
 
 def number_of_friends(user):
     """How many friends does _user_ have?"""
-    return len(user["friends"])
+    return len(user["friends"])      # Length of friends for  each user
+
+print (number_of_friends(user))
+
+total_connections = sum(number_of_friends(user)
+                        for user in users)
+
+print (total_connections)
