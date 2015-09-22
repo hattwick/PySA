@@ -42,4 +42,12 @@ print (number_of_friends(user))
 total_connections = sum(number_of_friends(user)
                         for user in users)
 
-print (total_connections)
+print (total_connections)            # should be 24
+
+
+# Compute averages
+
+num_users = len(users)
+print ("There are ", num_users, "users.")
+
+
