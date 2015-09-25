@@ -53,3 +53,15 @@ print ("There are ", num_users, "users.")
 print (avg_connections, " Average connections")
 
 
+# Sort from most to least friends
+
+num_friends_by_id = [(user["id"], number_of_friends(user
+)) for user in users]
+
+
+print (number_of_friends(user))
+
+sorted(num_friends_by_id,
+       key=lambda user_id: number_of_friends)
+
+
