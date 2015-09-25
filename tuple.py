@@ -48,6 +48,8 @@ print (total_connections)            # should be 24
 # Compute averages
 
 num_users = len(users)
+avg_connections = total_connections / num_users
 print ("There are ", num_users, "users.")
+print (avg_connections, " Average connections")
 
 
