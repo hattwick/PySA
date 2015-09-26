@@ -63,5 +63,3 @@ print (number_of_friends(user))
 
 sorted(num_friends_by_id,
        key=lambda user_id: number_of_friends)
-
-
