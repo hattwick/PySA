@@ -25,5 +25,3 @@ url = template.format(rfc_number)
 rfc_raw = urllib.request.urlopen(url).read()
 rfc = rfc_raw.decode()
 print(rfc)
-
-We can run the preceding cod
