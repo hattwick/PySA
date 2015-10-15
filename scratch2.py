@@ -15,8 +15,8 @@ def times (x,y):
 
 
 try:
-   # rfc_number = int(sys.argv[1])
-   rfc_number = 5512
+   # rfc_number = int(sys.argv[1])  7149 and 7426 for SDN
+   rfc_number = 7149
 except (IndexError, ValueError):
     print('Must supply an RFC number as first argument')
     sys.exit(2)
