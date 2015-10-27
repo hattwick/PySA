@@ -26,10 +26,12 @@ url = template.format(rfc_number)
 rfc_raw = urllib.request.urlopen(url).read()
 rfc = rfc_raw.decode()
 print(rfc)
-print('End of RFC\n')
+print('End of RFC\n\n')
 
 # Chccking a tuple
 
 dict1 = {"Vendor": "Cisco", "Model":" 4507", "IOS": "12.9"}
 
 print(dict1)
+print(dict1.items())
+print(dict1.values())
