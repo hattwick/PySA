@@ -26,4 +26,11 @@ url = template.format(rfc_number)
 rfc_raw = urllib.request.urlopen(url).read()
 rfc = rfc_raw.decode()
 print(rfc)
-print('End of RFC')
+print('End of RFC'
+
+# Chccking a tuple
+
+tuple1 = ("Cisco", "4507", "12.7")
+(vendor, model, ios) = tuple1
+
+print (vendor, model, ios)
