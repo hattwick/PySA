@@ -34,4 +34,5 @@ dict1 = {"Vendor": "Cisco", "Model":" 4507", "IOS": "12.9"}
 
 print(dict1)
 print(dict1.items())
+print(dict1.keys())
 print(dict1.values())
