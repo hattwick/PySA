@@ -26,7 +26,7 @@ url = template.format(rfc_number)
 rfc_raw = urllib.request.urlopen(url).read()
 rfc = rfc_raw.decode()
 print(rfc)
-print('End of RFC'
+print('End of RFC')
 
 # Chccking a tuple
 
