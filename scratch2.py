@@ -30,7 +30,7 @@ print('End of RFC'
 
 # Chccking a tuple
 
-tuple1 = ("Cisco", "4507", "12.7")
+# tuple1 = ("Cisco", "4507", "12.7")
 (vendor, model, ios) = tuple1
 
 print (vendor, model, ios)
