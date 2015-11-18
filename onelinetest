@@ -1,0 +1,11 @@
+# convert a=2+2 and print a+a .... in one line of code
+# Boston Python Meetup 11-17-2015 audience exercise
+
+import math
+#First the control
+
+a=2+2
+print(a+a)
+
+# Labmas add a lot of flexibility
+
