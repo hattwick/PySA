@@ -9,3 +9,6 @@ print(a+a)
 
 # Labmas add a lot of flexibility
 
+print (lambda a:a+a)(2+2)
+
+print [a + a for a in [2+ 2][0]
