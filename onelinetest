@@ -42,3 +42,12 @@ print (do_something(), 42)[1])
 
 # put it all toggether
 
+# if/else
+
+if True:
+    x = 5
+else:
+    x = 10
+print x * 100
+
+
