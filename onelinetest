@@ -11,4 +11,16 @@ print(a+a)
 
 print (lambda a:a+a)(2+2)
 
-print [a + a for a in [2+ 2][0]
+#  print [a + a for a in [2+ 2][0]
+
+
+
+# Determine how to allow function def in blocks of clode:
+
+def f(x):
+    return x*10
+
+print f(3)
+
+print (lambda f: f(3))(lambda x: x*10)
+
