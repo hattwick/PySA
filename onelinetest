@@ -51,3 +51,35 @@ else:
 print x * 100
 
 
+#...create conditional expression (B if A else C plus continuation passing
+
+def continuation(x):
+    print x*100
+
+if True:
+    x=5
+    continuation(x)
+If False:
+    x=10
+    continuation(x)
+
+
+
+# answer is a big nested lambda
+
+# While loop
+
+x = 5
+def whilte_loop(x):
+    if x<20:
+        x=x+4
+        while_loop(x)
+    else:
+        print x
+while_loop(x)
+
+
+# Imports are not as hard as they seem ... __import__ takes care of that
+
+rnd = __import__('random')
+
