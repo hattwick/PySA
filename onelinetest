@@ -17,10 +17,28 @@ print (lambda a:a+a)(2+2)
 
 # Determine how to allow function def in blocks of clode:
 
-def f(x):
+# def f(x):
     return x*10
 
-print f(3)
+# print f(3)
 
-print (lambda f: f(3))(lambda x: x*10)
+# print (lambda f: f(3))(lambda x: x*10)
+
+
+# What about operations that don't assign to a variable?
+
+do_something()
+print 42
+
+Since output value of do_something isn't used, funnel it to unused variable _.' \
+
+print (lambda _: 42)(do_something())
+
+# or
+
+print (do_something(), 42)[1])
+
+
+
+# put it all toggether
 
