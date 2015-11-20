@@ -1,6 +1,6 @@
 # Scratch program of various commands
 #
-import sys, urllib.request
+import sys, urllib.request, socket
 
 print("hello")
 a=4
@@ -13,10 +13,9 @@ def times (x,y):
     return x*y
 
 
-
 try:
    # rfc_number = int(sys.argv[1])  7149 and 7426 for SDN
-   rfc_number = 7426
+   rfc_number = int(sys.argv[1])   #supply rfc argument at runtime
 except (IndexError, ValueError):
     print('Must supply an RFC number as first argument')
     sys.exit(2)
