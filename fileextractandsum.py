@@ -12,6 +12,7 @@ for line in fh:
     #print confidence
 
 
+
 # Compute average
 
 confsum=sum(confidencerepo)
