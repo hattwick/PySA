@@ -14,7 +14,6 @@ while True:
     if last == 'q':
         break
 
+    formatted_name = get_formatted_name(first, last)
 
-formatted_name = get_formatted_name(first, last)
-
-print('\n Your full name is ' + formatted_name + '.')
+    print('\n Your full name is ' + formatted_name + '.')
