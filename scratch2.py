@@ -12,7 +12,6 @@ print("The type of variable a is",  type(a))
 def times (x,y):
     return x*y
 
-
 try:
    # rfc_number = int(sys.argv[1])  7149 and 7426 for SDN
    rfc_number = int(sys.argv[1])   #supply rfc argument at runtime
