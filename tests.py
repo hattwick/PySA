@@ -13,3 +13,8 @@ while True:
     last = input('\nWhat is your last name? ')
     if last == 'q':
         break
+
+
+formatted_name = get_formatted_name(first, last)
+
+print('\n Your full name is ' + formatted_name + '.')
