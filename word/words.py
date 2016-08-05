@@ -20,3 +20,18 @@ for letter in string.ascii_lowercase:
             exists = True
         if not exists:
             print('There are no English words with double' + letter)
+
+#print words that have all vowels
+
+vowels = "aeiou"
+
+def has_all_vowels(word):
+    for vowel in vowels:
+        if vowel not in word:
+            return False
+        return True
+
+for word in scrabble.wordlist:
+    if has_all_vowels(word):
+        print(word)
+
