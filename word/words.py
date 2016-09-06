@@ -5,9 +5,9 @@ import string
 
 #print all words containing uu
 
-for word in scrabble.wordlist:
-    if "uu" in word:
-        print(word)
+# for word in scrabble.wordlist:
+#    if "uu" in word:
+#        print(word)
 
 
 #print all letters that never appear doubled.  Should reveal Q and X
@@ -32,6 +32,9 @@ def has_all_vowels(word):
         return True
 
 for word in scrabble.wordlist:
+    currentword = word()
     if has_all_vowels(word):
         print(word)
+    print('Last word was: ', currentword)
 
+# Just remember the new way to print a value in Python3

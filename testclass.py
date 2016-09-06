@@ -31,5 +31,9 @@ my_dog.sit()
 your_dog.sit()
 print (my_dog.current_status)
 
+# This is the preferred python3 way to print a variable
+newstring = "This is the constructed string with my dog {}".format(my_dog.name.title())
+print(newstring)
+
 
 
