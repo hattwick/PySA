@@ -18,3 +18,8 @@ for word in scrabble.wordlist:
     if word == word[::-1] and len(word) > len(longest):
         longest = word
 print('After checking the scrabble file, the longest word is', longest)
+
+print('\n\n\n')
+response = input("What should I shout?")
+response = response.upper()
+print("Well if you insist...", response)
