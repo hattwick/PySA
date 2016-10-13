@@ -35,6 +35,6 @@ def Game():
     y = P2.deck[0,7]
     P2.hand.extend(y)
 
-    print P1.hand
+    print(P1.hand)
 
 Game
