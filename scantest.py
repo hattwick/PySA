@@ -21,3 +21,6 @@ def port(host, ports):
     except:
         print("[-] No DNS resolution '%s': unknown host:" %host)
         return
+
+test = port(google, 80)
+print(test)
