@@ -22,4 +22,4 @@ stop = time.time()
 
 print("Total new words: %d" % counter)
 print(stop)
-print("Elapsed time: %.1f seconds" %(stop-start))
+print("Elapsed time: %.3f seconds" %(stop-start))
