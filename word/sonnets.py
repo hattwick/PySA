@@ -1,4 +1,5 @@
 import time
+import datetime
 
 my_words = [elt.strip() for elt in open("sonnet_words.txt", "r").readlines()]
 word_list = [elt.strip() for elt in open("sowpods.txt", "r").readlines()]
@@ -9,7 +10,8 @@ word_set2 = set(word_list)
 
 
 counter = 0
-
+now =datetime.datetime.now()
+print("Program starts at", now)
 start = time.time()
 print(start)
 
