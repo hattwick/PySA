@@ -11,7 +11,7 @@ word_set2 = set(word_list)
 
 counter = 0
 now =datetime.datetime.now()
-print("Program starts at", now)
+print("Program starts at", now, " compared with time which shows: ", time.time())
 start = time.time()
 print(start)
 
