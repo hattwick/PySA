@@ -19,6 +19,7 @@ for word in my_words:
     if word not in word_set2:    #play with this variable to infuence speed using dict, set, list
         print(word)
         counter += 1
+        time.sleep(.01)
 
 stop = time.time()
 
