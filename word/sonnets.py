@@ -1,5 +1,6 @@
 import time
 import datetime
+import pika  # placeholder for rabbitmq workflow
 
 my_words = [elt.strip() for elt in open("sonnet_words.txt", "r").readlines()]
 word_list = [elt.strip() for elt in open("sowpods.txt", "r").readlines()]
