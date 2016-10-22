@@ -23,6 +23,8 @@ for word in my_words:
         time.sleep(.000000000000001)
 
 stop = time.time()
+stoptime =datetime.datetime.now()
+print("Program ends at", stoptime, " compared with time which shows: ", stop)
 
 print("Total new words: %d" % counter)
 print(stop)
