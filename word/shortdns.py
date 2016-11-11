@@ -8,14 +8,9 @@ import socket
 
 r53 = ['microsoft.com','bloomberg.com', 'amazon.com']
 
-
-
 for host in r53:
-
     host = host.strip()
-
     ip = socket.gethostbyname(host)
-
     print(host, ip)
 
 
