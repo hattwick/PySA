@@ -2,6 +2,7 @@
 # test exercise file from Python 3 Essential Training on lynda.com
 # modifications during exercise to operate on a character data (bytes)
 # parse string with unprintable characters and append characters as xml unicode entitie for proper formatting
+# goal is to evolve this to a reusable module
 
 def main():
     print('This is the containers.py file.\n')
