@@ -1,6 +1,7 @@
 #!/user/bin/python3
 # Basic sqlite operations modelled from Python3 Essential Training
 # Not production quality - no error checking
+# production version will have functions in a class and generator functions
 
 import sqlite3
 
@@ -36,14 +37,16 @@ def main():
     print('New test table created')
     print('Creating test data')
     insert(db, dict(t1 = 'one', i1 = 1))
-    insert(db, dict(t1 = 'two', i1 = 2))
-    insert(db, dict(t1 = 'three', i1 = 3))
-    insert(db, dict(t1 = 'four', i1 = 4))
-    display_row(db)
+#    insert(db, dict(t1 = 'two', i1 = 2))
+#   insert(db, dict(t1 = 'three', i1 = 3))
+#    insert(db, dict(t1 = 'four', i1 = 4))
+#    display_row(db)
 
+# Reads
     print('Retrieving rows . . . . .')
     print(dict(retrieve(db,'one')), dict(retrieve(db, 'two')))
 
+# Updates
     print('Updating row . . . . .')
     update(db, dict(t1 = 'one', i1 = 111))
     display_row(db)
