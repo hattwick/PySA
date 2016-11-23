@@ -10,10 +10,10 @@ def main():
     print(time)
     print('System environment: ', sys.platform)
     print('Python version {}.{}.{}'.format(*sys.version_info))
-    page = urllib.request.urlopen('http://python.org/')
+    page = urllib.request.urlopen('https://google.com/')
     print(page)
-#    for line in page:
-#        print(str(line, encoding='utf_8'), end = '')
+    for line in page:
+        print(str(line, encoding='utf_8'), end = '')
 
 
 
