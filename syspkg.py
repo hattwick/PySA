@@ -13,7 +13,7 @@ def main():
     page = urllib.request.urlopen('https://google.com/')
     print(page)
     for line in page:
-        print(str(line, encoding='utf_8'), end = '')
+        print(str(line, encoding='utf_16'), end = '')
 
 
 
