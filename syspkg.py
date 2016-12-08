@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 # environment checks
+# Run in ptpython for colorful output
 
 import sys
 import urllib.request
