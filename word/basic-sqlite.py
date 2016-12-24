@@ -4,6 +4,7 @@
 # production version will have functions in a class and generator functions
 
 import sqlite3
+import os
 
 def insert(db, row):
     db.execute('insert into test (t1, i1) value (?, ?)', (row['t1'], row['i1']))
