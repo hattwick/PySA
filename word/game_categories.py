@@ -1,5 +1,4 @@
-# Goal:
-# Select a random game and print all of the categories from that game.
+# Goal:  Select a random game and print all of the categories from that game.
 # Test environment is ubuntu on aws running sqlite3 with jeopardy.dump imported into jeopardy db
 # SQL to get a random game:
 # SELECT game FROM category ORDER BY RANDOM() LIMIT 1
