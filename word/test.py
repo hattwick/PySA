@@ -47,7 +47,7 @@ while num < value[2]:
     print(True)
     num += 1
 
-for y in range(value[3]):
+''' for y in range(value[3]):
     if y in value:
         print(False)
 
@@ -57,7 +57,7 @@ try:
         print(False)
 except IndexError:
     print(True)
-
+'''
 try:
     assert value[3] == -1
 except AssertionError:
