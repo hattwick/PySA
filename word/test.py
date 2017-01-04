@@ -10,8 +10,10 @@ five = {"happy":"birthday"}
 six = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 days = ("Fri", "Sat", "Sun")
 x, y, seven = days
+
 # DO NOT CHANGE ANYTHING BELOW THIS LINE #
 # -------------------------------------- #
+
 print("zero: {}".format(zero == 0))
 print("one: {}".format(one > 22))
 print("two: {}".format(len(two) == 5))
